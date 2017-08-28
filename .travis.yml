@@ -1,0 +1,5 @@
+language: python
+python:
+  - "3.5"
+# command to run tests
+script: cd 01-assertions/ && python asserts.py && cd ../ && cd 02-testing_before_and_after/ && python asserts.py && cd ../ && cd 03-test_driven_development/ && python asserts.py && cd ../ && cd 04-building_your_own_testing_framework/ && python asserts.py&& cd ../ && cd 05-vending_machine/ && python asserts.py
